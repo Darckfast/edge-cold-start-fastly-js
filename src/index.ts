@@ -5,7 +5,7 @@
 addEventListener("fetch", (event) => event.respondWith(handleRequest(event)));
 
 async function handleRequest(event: FetchEvent) {
-    return new Response(JSON.stringify({ time: Date.now() }), {
+    return new Response(JSON.stringify({ time: process.hrtime.bigint() / 1000n; }), {
         status: 200,
         headers: new Headers({ "Content-Type": "application/json" }),
     });
