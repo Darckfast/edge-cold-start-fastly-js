@@ -1,17 +1,23 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "target": "ES2022",
-    "lib": [ "ES2022" ],
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "customConditions": [ "fastly" ],
-    "types": [ "@fastly/js-compute" ],
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "erasableSyntaxOnly": true,
-    "verbatimModuleSyntax": true,
-    "allowImportingTsExtensions": true
-  }
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2022",
+        "lib": [
+            "ES2022"
+        ],
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "customConditions": [
+            "fastly"
+        ],
+        "types": [
+            "@fastly/js-compute"
+        ],
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "erasableSyntaxOnly": true,
+        "verbatimModuleSyntax": true,
+        "allowImportingTsExtensions": true
+    }
 }
