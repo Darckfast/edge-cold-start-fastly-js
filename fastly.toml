@@ -7,7 +7,7 @@ description = ""
 language = "javascript"
 manifest_version = 3
 name = "edge-cold-start-fastly-js"
-service_id = ""
+service_id = "PbxRWX1U54QyzJ0ZvvNjIg"
 
 [local_server]
 
